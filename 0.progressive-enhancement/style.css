@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    background: linear-gradient(180deg, #ffffff, #b8b8ff);
+    background-image:url(img/eugene-golovesov-1FlykidMS6k-unsplash.jpg) ;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+    font-family: "Open Sans", sans-serif;
+}
+
+header{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+header:first-child{
+    background-color: yellow;
+}
+
+blockquote{
+    width: 50%;
+    margin: 80px auto;
+    font-size: 160%;
+    background-color: grey;
+    border-left: 3px solid firebrick;
+    padding-left: 30px;
+    font-style: italic;
+
+}
+
+p{
+    font-family: serif;
+    letter-spacing: 3px;
+    color: #333;
+    padding: 20px;
+}
+
+a{
+    color: crimson;
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: 18px;
+}
+
+a:visited{
+    color: #333;
+}
+
+.good .bad{
+    text-transform: capitalize;
+}
+
+.good{
+    color: green;
+}
+
+.bad{
+    color: red;
+}
+
+tr:nth-child(even){
+    background-color: #ffffff;
+}
+
+tr:nth-child(odd){
+    background-color: grey;
+}
+
+li{
+    list-style-type: none;
+}
+
+ul>li:nth-child(1){
+    background-image: url(img/bien.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left:20px ;
+}
+
+ul>li:nth-child(2){
+    background-image: url(img/mal.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left:20px ;
+}
+
+ul>li:nth-child(3){
+    background-image: url(img/chat.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left:20px ;
+}
+
+body p:first-child{
+    font-weight: bold;
+}
+
+img{
+    float: left;
+    margin:20px 20px 0 0;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+figure{
+    margin-top: 0;
+}
+
+.notification{
+    background:#FFFFDD;
+    padding:.5rem 1rem;
+    border:3px solid #DDDDCC;
+    width:250px;
+    font-weight:bold;
+    color: #333300;
+    position: fixed;
+    top: 80%;
+    left: 80%;
+}
